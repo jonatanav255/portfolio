@@ -2,7 +2,7 @@
   "scripts": {
     "start": "npm run build && npm run start:dev",
     "start:dev": "ts-node-dev dist/script.js",
-    "build": "tsc"
+    "build": "tsc -w"
   },
   "devDependencies": {
     "ts-node-dev": "^2.0.0",
